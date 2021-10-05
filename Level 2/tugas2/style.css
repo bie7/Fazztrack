@@ -1,0 +1,70 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #eaeaea;
+}
+
+h1 {
+   color: rgb(8, 45, 255);
+}
+
+h2,
+h3,
+h4 {
+   color: rgb(45, 203, 255);
+}
+
+a,
+img {
+   margin-top: 4px;
+}
+
+a {
+   text-decoration: none;
+   color: salmon;
+}
+
+p.alasan {
+   font-weight: bold;
+}
+
+/* 
+2. jelaskan bagian Syntax dari CSS
+
+  body, h1, h3, h4 => adalah seletor yaitu seletor element yang akan di target atau dikenakan styling
+  (.) => atau tanda titik untuk mentarget suatu selector class
+  (#) => atau tanda pagar untuk mentarget suatu selector id
+  {font-family : 'Poppins', sans-serif; } => adalah deklarasi untuk styling
+  font-family, color, margin-top, text-decoration => adalah properti css yang digunakan untuk styling
+  poppins, sans-serif, rgb, 4px, bold => adalah value atau nilai dalam css yang digunakan untuk styling
+
+3. Apa yang dimaksud CSS Specificity?
+  CSS Specificity adalah Prioritas pada syntaks CSS. semakin tinggi specificitynya maka tingkat prioritas semakin tinggi dan dipilih oleh CSS dalam mengeksekusi kodenya
+
+4.Apa yang dimaksud dengan Responsive Website?
+  adalah Penyesuaian sebuah website terhadap ukuran layar pengguna yang mengakses website tersebut
+
+5.Apa yang dimaksud CSS Media Queries?
+  Media Queries adalah sebuah teknik untuk mengatur ukuran tampilan layar dari layout berbeda pada setiap device;
+
+6. Apa yang dimaksud CSS Flexbox dan Grid?
+  Css flexbox dan Grid adalah modul layout pada css3 yang kegunaannya sama untuk mengatur tampilan website. perbedaanya hanya pada dimensinya. flexbox hanya bisa mengatur tampilan secara horizontal saja atau secara verikal saja, sedangkan Grid dapat mengatur keduanya secara bersamaan
+
+7.Apa yang dimaksud dengan Bootstrap?
+  Bootstrap adalah sebuah framework atau kerangka kerja yang digunakan untuk frontend pada website yang dibangun menggunakan CSS, HTML dan Javascript.
+
+
+*/
+
+
+/* Jawaban soal nomer 8 */
+
+@media screen and (min-width: 800px) {
+   body {
+      background-color: #ffffff;
+   }
+
+   img {
+      width: 500px !important;
+      height: 500px !important;
+   }
+}

@@ -1,0 +1,23 @@
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+   color: rgba(0, 0, 0, 0.699);
+}
+
+h2,
+h3,
+h4 {
+   color: lightblue;
+}
+
+a,
+img {
+   margin-top: 4px;
+}
+
+a {
+   text-decoration: none;
+   color: salmon;
+}
